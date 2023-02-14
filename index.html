@@ -12,14 +12,14 @@
    <div class="container mx-auto">
        <div class="bg-slate-500 p-6 w-3/4 my-12 mx-auto">
            <div class="flex mb-4">
-              <div class="w-4/12 text-white"><i class="fa-solid fa-bold rounded p-2" onclick="formatText('font-bold')"></i> <i class="fa-solid fa-italic rounded p-2" onclick="formatText('italic')"></i> <i class="fa-solid fa-underline rounded p-2"  onclick="formatText('underline')"></i></div>
+              <div class="w-4/12 text-white"><i class="fa-solid fa-bold rounded p-2 cursor-pointer" onclick="formatText('font-bold')"></i> <i class="fa-solid fa-italic rounded p-2 cursor-pointer" onclick="formatText('italic')"></i> <i class="fa-solid fa-underline rounded p-2 cursor-pointer"  onclick="formatText('underline')"></i></div>
 
-              <div class="w-4/12 text-center text-white"><i class="fa-solid fa-align-left rounded p-2 alignbtn" onclick="textAlign('text-left')"></i> <i class="fa-solid fa-align-center rounded p-2 alignbtn" onclick="textAlign('text-center')"></i> <i class="fa-solid fa-align-right rounded p-2 alignbtn" onclick="textAlign('text-right')"></i> <i class="fa-solid fa-align-justify rounded p-2 alignbtn" onclick="textAlign('text-justify')"></i></div>
+              <div class="w-4/12 text-center text-white"></div>
               
-              <div class="w-4/12 text-right text-white"><input type="number" value='16' class="text-black rounded mx-2" style="width:50px; padding:0 0 0 5px" id="font-size"/><span class="font-bold" id="uppercase">Aa</span></div>
+              <div class="w-4/12 text-right text-white"><input type="number" value='16' class="text-black rounded mx-2" style="width:50px; padding:0 0 0 5px" id="font-size"/><span class="font-bold cursor-pointer" id="uppercase">Aa</span></div>
            </div>
            <textarea class="rounded-lg w-full p-4 outline-none max-h-80 " id="texts" style="min-height:320px"></textarea>
-           <p class="text-white mt-2" id="total"></p>
+           <p class="text-white mt-2" id="total">Total 0 charecters and 0 words</p>
        </div>
    </div>
 

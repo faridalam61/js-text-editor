@@ -1,7 +1,6 @@
 const textArea = document.getElementById('texts');
 const fontSize = document.getElementById('font-size');
 const upperCase = document.getElementById('uppercase');
-const alignBtn = document.getElementsByClassName('alignbtn');
 
 // Bold, italic or underline formating
 function formatText(value){
@@ -9,15 +8,6 @@ function formatText(value){
     event.target.classList.toggle('bg-white')
     event.target.classList.toggle('text-black')
 }
-
-// Text Alignment
-
-function textAlign(value){
-    event.target.classList.toggle(value);
-    event.target.classList.toggle('bg-white')
-    event.target.classList.toggle('text-black')
-}
-
 
 // Changing font size
 fontSize.addEventListener('change',function(){
